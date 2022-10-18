@@ -1,10 +1,12 @@
-name = input("Enter your username: ")
-password = input("Enter you password: ")
+def login():
+    name = input("Enter your username: ")
+    password = input("Enter you password: ")
 
-dbusername ="Admin"
-dbpassword="1234@admin"
+    dbusername ="Admin"
+    dbpassword="1234@admin"
 
-if(name==dbusername and password==dbpassword):
-    print("Hello you are logged in")
-else:
-    print("Wrong username, password combination")
+
+counter =1
+while counter<5:
+    print(counter)
+    counter+=1
